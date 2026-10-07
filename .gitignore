@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Secrets and local configuration - never commit (including the example files)
+.env
+.env.*
+.env.example
+
+# User-uploaded files (keep the folders, not their contents)
+uploads/*
+!uploads/.gitkeep
+private_uploads/*
+!private_uploads/.gitkeep
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+.pm2/
+
+# Backups and dumps
+*.gz
+*.tgz
+*.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
